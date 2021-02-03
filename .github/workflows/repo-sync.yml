@@ -19,6 +19,6 @@ jobs:
         with:
           source_repo: "https://github.com/ruicky/jd_sign_bot.git"
           source_branch: "master"
-          destination_branch: "master"
+          destination_branch: "main"
           sync_tags: "true"
           github_token: ${{ secrets.PAT }}
